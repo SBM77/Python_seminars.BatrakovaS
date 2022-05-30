@@ -6,7 +6,7 @@ from re import S
 
 
 list =[]
-N=int(input("Введите количествло чденов последовательности  "))
+N=int(input("Введите количествло членов последовательности  "))
 for i in range(N):
     if i%2==0:
         list.append(3**i)
